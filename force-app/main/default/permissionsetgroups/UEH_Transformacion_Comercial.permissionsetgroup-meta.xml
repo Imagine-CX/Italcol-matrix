@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission Set de la Gerencia de Transformación Comercial</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>UEH Transformacion Comercial</label>
+    <permissionSets>UEHGerenteTransformacionComercialLightningRetailExecutionPlusPsl</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission Set Gerente Nacional PDV</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>UEH Gerente Nacional PDV</label>
+    <permissionSets>UEHGerenteNacionalPDVCGCRetailAndTPMMgmtPsl</permissionSets>
+    <permissionSets>UEHGerenteNacionalPDVLightningRetailExecutionPlusPsl</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

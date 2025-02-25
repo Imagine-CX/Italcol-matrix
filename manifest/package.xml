@@ -1,20 +1,69 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>*</members>
-		<name>Role</name>
+		<members>BalAsistenteGerenteVentasLightningKeyAccountManagementBasicPsl</members>
+		<members>BalGerenteDeVentasLightningKeyAccountManagementBasicPsl</members>
+		<members>BalGerenteDistribucionLightningKeyAccountManagementBasicPsl</members>
+		<members>BalGerenteVentasGanaderiaLightningKeyAccountManagementBasicPsl</members>
+		<members>BalLineaAviculturaLightningKeyAccountManagementBasicPsl</members>
+		<members>BalLineaGanaderiaLightningKeyAccountManagementBasicPsl</members>
+		<members>BalLineaPorciculturaLightningKeyAccountManagementBasicPsl</members>
+		<members>CBCoordinadoraREgionalAutoserviciosLightningRetailExecutionPlusPsl</members>
+		<members>CBDirectorNacionalCanalAutoserviciosLightningRetailExecutionPlusPsl</members>
+		<members>CBEjecutivoComercialCanalAutoserviciosLightningRetailExecutionPlusPsl</members>
+		<members>CBGerenteComercialLightningRetailExecutionPlusPsl</members>
+		<members>CBGerenteGeneralLightningRetailExecutionPlusPsl</members>
+		<members>CBMercaderistaLightningRetailExecutionMerchandiserPsl</members>
+		<members>LightningKeyAccountManagementBasicPsl</members>
+		<members>Sales_User</members>
+		<members>SupervisoraCGCRetailAndTPMMgmtPsl</members>
+		<members>SupervisoraLightningRetailExecutionStarterPsl</members>
+		<members>UEHDesarrolladorGeograficoLightningRetailExecutionStarterPsl</members>
+		<members>UEHDomiciliarioPDVCenCGCDirectStoreDeliveryOfflinePsl</members>
+		<members>UEHDomiciliarioPDVCentroLightningDirectStoreDeliveryPsl</members>
+		<members>UEHEjecutivoCuentaSalesEngagementBasicUser</members>
+		<members>UEHGerenteNacionalPDVCGCRetailAndTPMMgmtPsl</members>
+		<members>UEHGerenteNacionalPDVLightningRetailExecutionPlusPsl</members>
+		<members>UEHGerenteNacionalVentasLightningRetailExecutionPlusPsl</members>
+		<members>UEHGerenteTransformacionComercialLightningRetailExecutionPlusPsl</members>
+		<members>UEHJEFEPDVLightningRetailExecutionStarterPsl</members>
+		<members>UEHJefeGeograficoCGCRetailAndTPMMgmtPsl</members>
+		<members>UEHJefeGeograficoLightningRetailExecutionStarterPsl</members>
+		<members>UEHJefePDVCGCRetailAndTPMMgmtPsl</members>
+		<members>UEHPresidenciaHuevosLightningRetailExecutionStarterPsl</members>
+		<members>UEH_EjecutivoCuentaLightningRetailExecutionStarterPsl</members>
+		<members>VENDEDORAPDVCentroCGCRetailAndTPMMgmtPsl</members>
+		<members>VendedoraPDVCentroLightningRetailExecutionStarterPsl</members>
+		<name>PermissionSet</name>
 	</types>
 	<types>
-		<members>*</members>
-		<name>Territory2</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>Territory2Model</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>Territory2Type</name>
+		<members>Bal_Asistente_Ventas</members>
+		<members>Bal_Gerente_Distribucion</members>
+		<members>Bal_Gerente_Ventas</members>
+		<members>Bal_Gerente_Ventas_Ganaderia</members>
+		<members>Bal_Gerente_Zona</members>
+		<members>Bal_Linea_Avicultura</members>
+		<members>Bal_Linea_Ganaderia</members>
+		<members>Bal_Linea_Porcicultura</members>
+		<members>CB_Coordinadora_Regional_Autoservicios</members>
+		<members>CB_Director_Nacional_Canal_Autoservicios</members>
+		<members>CB_Ejecutivo_Comercial_Canal_Autoservicios</members>
+		<members>CB_Gerente_Comercial</members>
+		<members>CB_Gerente_General</members>
+		<members>CB_Mercaderistas</members>
+		<members>UEH_Desarrollador</members>
+		<members>UEH_Domiciliario_Centro</members>
+		<members>UEH_Ejecutivo_de_cuenta</members>
+		<members>UEH_Gerencia_Nacional_Venta</members>
+		<members>UEH_Gerente_Nacional_PDV</members>
+		<members>UEH_Jefe_Geografico</members>
+		<members>UEH_Jefe_PDV</members>
+		<members>UEH_Presidencia</members>
+		<members>UEH_Supervisora</members>
+		<members>UEH_Transformacion_Comercial</members>
+		<members>UEH_Vendedor_Geografico</members>
+		<members>UEH_Vendedora_PDV_Centro</members>
+		<name>PermissionSetGroup</name>
 	</types>
 	<version>63.0</version>
 </Package>
