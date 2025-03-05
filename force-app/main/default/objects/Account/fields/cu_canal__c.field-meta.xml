@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cu_canal__c</fullName>
+    <description>Canal de distribución del cliente según el ERP.</description>
+    <label>Canal</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Autoservicio</fullName>
+                <default>false</default>
+                <label>Autoservicio</label>
+            </value>
+            <value>
+                <fullName>Hard Discount</fullName>
+                <default>false</default>
+                <label>Hard Discount</label>
+            </value>
+            <value>
+                <fullName>Food Service</fullName>
+                <default>false</default>
+                <label>Food Service</label>
+            </value>
+            <value>
+                <fullName>Distribuidores</fullName>
+                <default>false</default>
+                <label>Distribuidores</label>
+            </value>
+            <value>
+                <fullName>Geográfico</fullName>
+                <default>false</default>
+                <label>Geográfico</label>
+            </value>
+            <value>
+                <fullName>Puntos de Venta</fullName>
+                <default>false</default>
+                <label>Puntos de Venta</label>
+            </value>
+            <value>
+                <fullName>Kioscos</fullName>
+                <default>false</default>
+                <label>Kioscos</label>
+            </value>
+            <value>
+                <fullName>Alternativo</fullName>
+                <default>false</default>
+                <label>Alternativo</label>
+            </value>
+            <value>
+                <fullName>Industria</fullName>
+                <default>false</default>
+                <label>Industria</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
