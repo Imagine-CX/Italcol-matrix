@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Grupo de permission set Director Nacional Canal autoservicio</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CB_Director_Nacional_Canal_Autoservicios</label>
+    <permissionSets>CBDirectorNacionalCanalAutoserviciosLightningRetailExecutionPlusPsl</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

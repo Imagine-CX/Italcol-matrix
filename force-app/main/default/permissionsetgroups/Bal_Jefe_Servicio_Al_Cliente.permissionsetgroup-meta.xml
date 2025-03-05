@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Grupo de permission set Jefe servicio al Cliente</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Bal_Jefe_Servicio_Al_Cliente</label>
+    <permissionSets>BalJefeServicioalClienteConsumerGoodsCloudServicePsl</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

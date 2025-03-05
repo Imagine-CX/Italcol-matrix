@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Grupo permission set de jefe geografico</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>UEH Jefe Geografico</label>
+    <permissionSets>UEHJefeGeograficoCGCRetailAndTPMMgmtPsl</permissionSets>
+    <permissionSets>UEHJefeGeograficoLightningRetailExecutionStarterPsl</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
