@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cu_tipo_cliente__c</fullName>
+    <description>Clasificación del cliente</description>
+    <label>Tipo de Cliente</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fidelizado</fullName>
+                <default>false</default>
+                <label>Fidelizado</label>
+            </value>
+            <value>
+                <fullName>Perdido</fullName>
+                <default>false</default>
+                <label>Perdido</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
