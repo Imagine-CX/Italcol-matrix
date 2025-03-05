@@ -49,6 +49,14 @@
 		<name>CustomField</name>
 	</types>
 	<types>
+		<members>Account_Record_Page</members>
+		<members>Account_Record_Page_Three_Column</members>
+		<members>Contact_Record_Page</members>
+		<members>Contact_Record_Page_Three_Column</members>
+		<members>Retail_Store_Record_Page</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>GlobalValueSet</name>
 	</types>
