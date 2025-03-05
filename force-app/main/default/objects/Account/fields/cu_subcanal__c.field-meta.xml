@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cu_subcanal__c</fullName>
+    <description>Subcategoría del canal de distribución</description>
+    <label>Subcanal</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>cu_canal__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Supermercado Nacional</fullName>
+                <default>false</default>
+                <label>Supermercado Nacional</label>
+            </value>
+            <value>
+                <fullName>Supermercado Regional</fullName>
+                <default>false</default>
+                <label>Supermercado Regional</label>
+            </value>
+            <value>
+                <fullName>Cash &amp; Carry</fullName>
+                <default>false</default>
+                <label>Cash &amp; Carry</label>
+            </value>
+            <value>
+                <fullName>Hard Discount</fullName>
+                <default>false</default>
+                <label>Hard Discount</label>
+            </value>
+            <value>
+                <fullName>Geográfico Directo</fullName>
+                <default>false</default>
+                <label>Geográfico Directo</label>
+            </value>
+            <value>
+                <fullName>Asaderos de Barrio</fullName>
+                <default>false</default>
+                <label>Asaderos de Barrio</label>
+            </value>
+            <value>
+                <fullName>Distribuidor</fullName>
+                <default>false</default>
+                <label>Distribuidor</label>
+            </value>
+            <value>
+                <fullName>Hoteles</fullName>
+                <default>false</default>
+                <label>Hoteles</label>
+            </value>
+            <value>
+                <fullName>Gobierno</fullName>
+                <default>false</default>
+                <label>Gobierno</label>
+            </value>
+            <value>
+                <fullName>Casinos</fullName>
+                <default>false</default>
+                <label>Casinos</label>
+            </value>
+            <value>
+                <fullName>Restaurantes</fullName>
+                <default>false</default>
+                <label>Restaurantes</label>
+            </value>
+            <value>
+                <fullName>Distribuidor Food Service</fullName>
+                <default>false</default>
+                <label>Distribuidor Food Service</label>
+            </value>
+            <value>
+                <fullName>Asaderos Cadena</fullName>
+                <default>false</default>
+                <label>Asaderos Cadena</label>
+            </value>
+            <value>
+                <fullName>Domicilio</fullName>
+                <default>false</default>
+                <label>Domicilio</label>
+            </value>
+            <value>
+                <fullName>Mostrador</fullName>
+                <default>false</default>
+                <label>Mostrador</label>
+            </value>
+            <value>
+                <fullName>Empleados</fullName>
+                <default>false</default>
+                <label>Empleados</label>
+            </value>
+            <value>
+                <fullName>eCommerce</fullName>
+                <default>false</default>
+                <label>eCommerce</label>
+            </value>
+            <value>
+                <fullName>Directa</fullName>
+                <default>false</default>
+                <label>Directa</label>
+            </value>
+            <value>
+                <fullName>Transformadores</fullName>
+                <default>false</default>
+                <label>Transformadores</label>
+            </value>
+            <value>
+                <fullName>Intercompañía</fullName>
+                <default>false</default>
+                <label>Intercompañía</label>
+            </value>
+            <value>
+                <fullName>Producto No Conforme</fullName>
+                <default>false</default>
+                <label>Producto No Conforme</label>
+            </value>
+            <value>
+                <fullName>Fundaciones</fullName>
+                <default>false</default>
+                <label>Fundaciones</label>
+            </value>
+            <value>
+                <fullName>Producción</fullName>
+                <default>false</default>
+                <label>Producción</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Autoservicio</controllingFieldValue>
+            <valueName>Supermercado Nacional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autoservicio</controllingFieldValue>
+            <valueName>Supermercado Regional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autoservicio</controllingFieldValue>
+            <valueName>Cash &amp; Carry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hard Discount</controllingFieldValue>
+            <valueName>Hard Discount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food Service</controllingFieldValue>
+            <controllingFieldValue>Distribuidores</controllingFieldValue>
+            <valueName>Distribuidor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food Service</controllingFieldValue>
+            <valueName>Hoteles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food Service</controllingFieldValue>
+            <valueName>Gobierno</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food Service</controllingFieldValue>
+            <valueName>Casinos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food Service</controllingFieldValue>
+            <valueName>Restaurantes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Geográfico</controllingFieldValue>
+            <valueName>Geográfico Directo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Puntos de Venta</controllingFieldValue>
+            <controllingFieldValue>Kioscos</controllingFieldValue>
+            <valueName>Domicilio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Puntos de Venta</controllingFieldValue>
+            <controllingFieldValue>Kioscos</controllingFieldValue>
+            <valueName>Mostrador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Puntos de Venta</controllingFieldValue>
+            <controllingFieldValue>Kioscos</controllingFieldValue>
+            <valueName>Empleados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternativo</controllingFieldValue>
+            <valueName>eCommerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternativo</controllingFieldValue>
+            <valueName>Directa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industria</controllingFieldValue>
+            <valueName>Transformadores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industria</controllingFieldValue>
+            <valueName>Intercompañía</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industria</controllingFieldValue>
+            <valueName>Producto No Conforme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industria</controllingFieldValue>
+            <valueName>Fundaciones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industria</controllingFieldValue>
+            <valueName>Producción</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
