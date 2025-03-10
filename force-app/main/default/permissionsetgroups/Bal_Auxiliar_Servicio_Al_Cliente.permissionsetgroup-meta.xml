@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Grupo de permission sets Auxiliar Servicio al Cliente</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Bal_Auxiliar_Servicio_Al_Cliente</label>
+    <permissionSets>BalAuxiliarServicioalClienteConsumerGoodsCloudServicePsl</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

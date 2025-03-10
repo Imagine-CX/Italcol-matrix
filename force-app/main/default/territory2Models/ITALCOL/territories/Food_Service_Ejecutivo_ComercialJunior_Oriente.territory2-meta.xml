@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Edit</accountAccessLevel>
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <name>Food Service Ejecutivo Comercial Junior Oriente</name>
+    <objectAccessLevels>
+        <accessLevel>Read</accessLevel>
+        <objectType>Lead</objectType>
+    </objectAccessLevels>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentTerritory>Food_Service</parentTerritory>
+    <territory2Type>Canal</territory2Type>
+</Territory2>
