@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cu_colaborador_grupo_italcol__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Opción de sí está empleado</description>
+    <label>Colaborador de grupo Italcol</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

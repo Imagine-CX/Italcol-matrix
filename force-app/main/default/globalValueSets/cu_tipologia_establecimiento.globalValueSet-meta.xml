@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Abono</fullName>
+        <default>false</default>
+        <label>Abono</label>
+    </customValue>
+    <customValue>
+        <fullName>Asaderos Barrio</fullName>
+        <default>false</default>
+        <label>Asaderos Barrio</label>
+    </customValue>
+    <customValue>
+        <fullName>Asaderos Cadena</fullName>
+        <default>false</default>
+        <label>Asaderos Cadena</label>
+    </customValue>
+    <customValue>
+        <fullName>Avícola</fullName>
+        <default>false</default>
+        <label>Avícola</label>
+    </customValue>
+    <customValue>
+        <fullName>Cadena Hotelera</fullName>
+        <default>false</default>
+        <label>Cadena Hotelera</label>
+    </customValue>
+    <customValue>
+        <fullName>Cadenas</fullName>
+        <default>false</default>
+        <label>Cadenas</label>
+    </customValue>
+    <customValue>
+        <fullName>Cafetería</fullName>
+        <default>false</default>
+        <label>Cafetería</label>
+    </customValue>
+    <customValue>
+        <fullName>Cash &amp; Carry</fullName>
+        <default>false</default>
+        <label>Cash &amp; Carry</label>
+    </customValue>
+    <customValue>
+        <fullName>Casinos</fullName>
+        <default>false</default>
+        <label>Casinos</label>
+    </customValue>
+    <customValue>
+        <fullName>Catering</fullName>
+        <default>false</default>
+        <label>Catering</label>
+    </customValue>
+    <customValue>
+        <fullName>Clínicas</fullName>
+        <default>false</default>
+        <label>Clínicas</label>
+    </customValue>
+    <customValue>
+        <fullName>Clubes</fullName>
+        <default>false</default>
+        <label>Clubes</label>
+    </customValue>
+    <customValue>
+        <fullName>Comidas Rápidas</fullName>
+        <default>false</default>
+        <label>Comidas Rápidas</label>
+    </customValue>
+    <customValue>
+        <fullName>Corrientazo</fullName>
+        <default>false</default>
+        <label>Corrientazo</label>
+    </customValue>
+    <customValue>
+        <fullName>Directa</fullName>
+        <default>false</default>
+        <label>Directa</label>
+    </customValue>
+    <customValue>
+        <fullName>Distribuidores Especiales</fullName>
+        <default>false</default>
+        <label>Distribuidores Especiales</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecommerce</fullName>
+        <default>false</default>
+        <label>Ecommerce</label>
+    </customValue>
+    <customValue>
+        <fullName>Empleados</fullName>
+        <default>false</default>
+        <label>Empleados</label>
+    </customValue>
+    <customValue>
+        <fullName>Establecimientos Comerciales</fullName>
+        <default>false</default>
+        <label>Establecimientos Comerciales</label>
+    </customValue>
+    <customValue>
+        <fullName>Estandar</fullName>
+        <default>false</default>
+        <label>Estándar</label>
+    </customValue>
+    <customValue>
+        <fullName>Expendio De Carnes</fullName>
+        <default>false</default>
+        <label>Expendio De Carnes</label>
+    </customValue>
+    <customValue>
+        <fullName>Express</fullName>
+        <default>false</default>
+        <label>Express</label>
+    </customValue>
+    <customValue>
+        <fullName>Farmacias</fullName>
+        <default>false</default>
+        <label>Farmacias</label>
+    </customValue>
+    <customValue>
+        <fullName>Fruver</fullName>
+        <default>false</default>
+        <label>Fruver</label>
+    </customValue>
+    <customValue>
+        <fullName>Fundaciones</fullName>
+        <default>false</default>
+        <label>Fundaciones</label>
+    </customValue>
+    <customValue>
+        <fullName>Gallina En Pie</fullName>
+        <default>false</default>
+        <label>Gallina En Pie</label>
+    </customValue>
+    <customValue>
+        <fullName>Grandes Transformadores</fullName>
+        <default>false</default>
+        <label>Grandes Transformadores</label>
+    </customValue>
+    <customValue>
+        <fullName>Granero</fullName>
+        <default>false</default>
+        <label>Granero</label>
+    </customValue>
+    <customValue>
+        <fullName>Hard Discount</fullName>
+        <default>false</default>
+        <label>Hard Discount</label>
+    </customValue>
+    <customValue>
+        <fullName>Hogares</fullName>
+        <default>false</default>
+        <label>Hogares</label>
+    </customValue>
+    <customValue>
+        <fullName>Institución Educativa</fullName>
+        <default>false</default>
+        <label>Institución Educativa</label>
+    </customValue>
+    <customValue>
+        <fullName>Institución Gubernamental</fullName>
+        <default>false</default>
+        <label>Institución Gubernamental</label>
+    </customValue>
+    <customValue>
+        <fullName>Intercompañías</fullName>
+        <default>false</default>
+        <label>Intercompañías</label>
+    </customValue>
+    <customValue>
+        <fullName>Mayoristas</fullName>
+        <default>false</default>
+        <label>Mayoristas</label>
+    </customValue>
+    <customValue>
+        <fullName>Minimercado</fullName>
+        <default>false</default>
+        <label>Minimercado</label>
+    </customValue>
+    <customValue>
+        <fullName>Motel</fullName>
+        <default>false</default>
+        <label>Motel</label>
+    </customValue>
+    <customValue>
+        <fullName>No Convencionales</fullName>
+        <default>false</default>
+        <label>No Convencionales</label>
+    </customValue>
+    <customValue>
+        <fullName>Otros</fullName>
+        <default>false</default>
+        <label>Otros</label>
+    </customValue>
+    <customValue>
+        <fullName>PAE</fullName>
+        <default>false</default>
+        <label>PAE</label>
+    </customValue>
+    <customValue>
+        <fullName>Panadería</fullName>
+        <default>false</default>
+        <label>Panadería</label>
+    </customValue>
+    <customValue>
+        <fullName>Pequeños Transformadores</fullName>
+        <default>false</default>
+        <label>Pequeños Transformadores</label>
+    </customValue>
+    <customValue>
+        <fullName>Premium</fullName>
+        <default>false</default>
+        <label>Premium</label>
+    </customValue>
+    <customValue>
+        <fullName>Primaria</fullName>
+        <default>false</default>
+        <label>Primaria</label>
+    </customValue>
+    <customValue>
+        <fullName>Producto No Conforme</fullName>
+        <default>false</default>
+        <label>Producto No Conforme</label>
+    </customValue>
+    <customValue>
+        <fullName>Restaurante Hoteles</fullName>
+        <default>false</default>
+        <label>Restaurante Hoteles</label>
+    </customValue>
+    <customValue>
+        <fullName>Restaurantes</fullName>
+        <default>false</default>
+        <label>Restaurantes</label>
+    </customValue>
+    <customValue>
+        <fullName>Salsamentaria</fullName>
+        <default>false</default>
+        <label>Salsamentaria</label>
+    </customValue>
+    <customValue>
+        <fullName>Soft Discount</fullName>
+        <default>false</default>
+        <label>Soft Discount</label>
+    </customValue>
+    <customValue>
+        <fullName>Supermercado Regional</fullName>
+        <default>false</default>
+        <label>Supermercado Regional</label>
+    </customValue>
+    <customValue>
+        <fullName>Supermercados Nacional</fullName>
+        <default>false</default>
+        <label>Supermercados Nacional</label>
+    </customValue>
+    <customValue>
+        <fullName>Tienda De Barrio</fullName>
+        <default>false</default>
+        <label>Tienda De Barrio</label>
+    </customValue>
+    <customValue>
+        <fullName>Tiendas De Conveniencia</fullName>
+        <default>false</default>
+        <label>Tiendas De Conveniencia</label>
+    </customValue>
+    <customValue>
+        <fullName>Tiendas Especializadas</fullName>
+        <default>false</default>
+        <label>Tiendas Especializadas</label>
+    </customValue>
+    <masterLabel>Tipología</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

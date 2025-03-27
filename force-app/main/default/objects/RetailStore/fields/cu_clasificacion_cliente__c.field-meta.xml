@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cu_clasificacion_cliente__c</fullName>
+    <label>Clasificación cliente</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>cu_tipologia_tienda__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tipo A</fullName>
+                <default>false</default>
+                <label>Tipo A</label>
+            </value>
+            <value>
+                <fullName>Tipo B</fullName>
+                <default>false</default>
+                <label>Tipo B</label>
+            </value>
+            <value>
+                <fullName>Tipo C</fullName>
+                <default>false</default>
+                <label>Tipo C</label>
+            </value>
+            <value>
+                <fullName>Hogar</fullName>
+                <default>false</default>
+                <label>Hogar</label>
+            </value>
+            <value>
+                <fullName>Mayorista</fullName>
+                <default>false</default>
+                <label>Mayorista</label>
+            </value>
+            <value>
+                <fullName>Establecimiento Comercial</fullName>
+                <default>false</default>
+                <label>Establecimiento Comercial</label>
+            </value>
+            <value>
+                <fullName>Dorado</fullName>
+                <default>false</default>
+                <label>Dorado</label>
+            </value>
+            <value>
+                <fullName>Plata</fullName>
+                <default>false</default>
+                <label>Plata</label>
+            </value>
+            <value>
+                <fullName>Bronce</fullName>
+                <default>false</default>
+                <label>Bronce</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Restaurante Hoteles</controllingFieldValue>
+            <valueName>Tipo B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supermercado Regional</controllingFieldValue>
+            <controllingFieldValue>Cash &amp; Carry</controllingFieldValue>
+            <controllingFieldValue>Estandar</controllingFieldValue>
+            <controllingFieldValue>Express</controllingFieldValue>
+            <controllingFieldValue>Otros</controllingFieldValue>
+            <controllingFieldValue>Premium</controllingFieldValue>
+            <valueName>Dorado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supermercado Regional</controllingFieldValue>
+            <controllingFieldValue>Cash &amp; Carry</controllingFieldValue>
+            <controllingFieldValue>Estandar</controllingFieldValue>
+            <controllingFieldValue>Express</controllingFieldValue>
+            <controllingFieldValue>Otros</controllingFieldValue>
+            <controllingFieldValue>Premium</controllingFieldValue>
+            <valueName>Plata</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supermercado Regional</controllingFieldValue>
+            <controllingFieldValue>Cash &amp; Carry</controllingFieldValue>
+            <controllingFieldValue>Estandar</controllingFieldValue>
+            <controllingFieldValue>Express</controllingFieldValue>
+            <controllingFieldValue>Otros</controllingFieldValue>
+            <controllingFieldValue>Premium</controllingFieldValue>
+            <valueName>Bronce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Establecimientos Comerciales</controllingFieldValue>
+            <controllingFieldValue>Hogares</controllingFieldValue>
+            <valueName>Hogar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Establecimientos Comerciales</controllingFieldValue>
+            <controllingFieldValue>Hogares</controllingFieldValue>
+            <valueName>Mayorista</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Establecimientos Comerciales</controllingFieldValue>
+            <controllingFieldValue>Hogares</controllingFieldValue>
+            <valueName>Establecimiento Comercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asaderos Cadena</controllingFieldValue>
+            <valueName>Tipo C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cadena Hotelera</controllingFieldValue>
+            <valueName>Tipo A</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

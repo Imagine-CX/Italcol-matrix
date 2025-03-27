@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cu_Servicios_Complementarios__c</fullName>
+    <label>¿Qué servicios complementarios maneja?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Estética de mascotas</fullName>
+                <default>false</default>
+                <label>Estética de mascotas</label>
+            </value>
+            <value>
+                <fullName>Servicio Veterinario Clínico</fullName>
+                <default>false</default>
+                <label>Servicio Veterinario Clínico</label>
+            </value>
+            <value>
+                <fullName>Asistencia Técnica</fullName>
+                <default>false</default>
+                <label>Asistencia Técnica</label>
+            </value>
+            <value>
+                <fullName>Guardería</fullName>
+                <default>false</default>
+                <label>Guardería</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

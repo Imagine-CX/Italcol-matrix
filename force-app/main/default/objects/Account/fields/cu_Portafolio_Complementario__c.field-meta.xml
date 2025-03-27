@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cu_Portafolio_Complementario__c</fullName>
+    <label>¿Qué portafolio complementario maneja?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Medicamentos Veterinarios</fullName>
+                <default>false</default>
+                <label>Medicamentos Veterinarios</label>
+            </value>
+            <value>
+                <fullName>Productos Agrícolas</fullName>
+                <default>false</default>
+                <label>Productos Agrícolas</label>
+            </value>
+            <value>
+                <fullName>Maquinaria y Agroferretería</fullName>
+                <default>false</default>
+                <label>Maquinaria y Agroferretería</label>
+            </value>
+            <value>
+                <fullName>Petshop</fullName>
+                <default>false</default>
+                <label>Petshop</label>
+            </value>
+            <value>
+                <fullName>Ropa y Dotaciones</fullName>
+                <default>false</default>
+                <label>Ropa y Dotaciones</label>
+            </value>
+            <value>
+                <fullName>Animales Vivos</fullName>
+                <default>false</default>
+                <label>Animales Vivos</label>
+            </value>
+            <value>
+                <fullName>Talabartería</fullName>
+                <default>false</default>
+                <label>Talabartería</label>
+            </value>
+            <value>
+                <fullName>Materias primas</fullName>
+                <default>false</default>
+                <label>Materias primas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

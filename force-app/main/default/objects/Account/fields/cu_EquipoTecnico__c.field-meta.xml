@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cu_EquipoTecnico__c</fullName>
+    <label>Equipo Técnico</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Propio</fullName>
+                <default>false</default>
+                <label>Propio</label>
+            </value>
+            <value>
+                <fullName>Asesores</fullName>
+                <default>false</default>
+                <label>Asesores</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

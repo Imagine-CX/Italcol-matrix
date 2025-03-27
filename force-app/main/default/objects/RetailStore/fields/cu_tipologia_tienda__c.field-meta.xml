@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cu_tipologia_tienda__c</fullName>
+    <description>Tipología de las tiendas</description>
+    <label>Tipología</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>cu_subcanal__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>cu_tipologia_establecimiento</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Restaurantes</controllingFieldValue>
+            <controllingFieldValue>Distribuidor Food Service</controllingFieldValue>
+            <valueName>Cadenas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurantes</controllingFieldValue>
+            <valueName>Cafetería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurantes</controllingFieldValue>
+            <valueName>Clínicas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurantes</controllingFieldValue>
+            <valueName>Comidas Rápidas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurantes</controllingFieldValue>
+            <valueName>Corrientazo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurantes</controllingFieldValue>
+            <valueName>Fundaciones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurantes</controllingFieldValue>
+            <valueName>Motel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distribuidor Food Service</controllingFieldValue>
+            <controllingFieldValue>Distribuidor</controllingFieldValue>
+            <valueName>Distribuidores Especiales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distribuidor Food Service</controllingFieldValue>
+            <valueName>Restaurantes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Producción</controllingFieldValue>
+            <valueName>Abono</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Producción</controllingFieldValue>
+            <valueName>Gallina En Pie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asaderos Cadena</controllingFieldValue>
+            <controllingFieldValue>Asaderos de Barrio</controllingFieldValue>
+            <valueName>Asaderos Barrio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asaderos Cadena</controllingFieldValue>
+            <valueName>Asaderos Cadena</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Domicilio</controllingFieldValue>
+            <controllingFieldValue>Mostrador</controllingFieldValue>
+            <controllingFieldValue>Empleados</controllingFieldValue>
+            <valueName>Empleados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Domicilio</controllingFieldValue>
+            <controllingFieldValue>Mostrador</controllingFieldValue>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <valueName>Establecimientos Comerciales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Domicilio</controllingFieldValue>
+            <controllingFieldValue>Mostrador</controllingFieldValue>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <valueName>Hogares</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <valueName>Ecommerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Directa</controllingFieldValue>
+            <valueName>Directa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transformadores</controllingFieldValue>
+            <valueName>Grandes Transformadores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transformadores</controllingFieldValue>
+            <valueName>Pequeños Transformadores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transformadores</controllingFieldValue>
+            <valueName>Primaria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supermercado Nacional</controllingFieldValue>
+            <valueName>Estandar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supermercado Nacional</controllingFieldValue>
+            <valueName>Express</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supermercado Nacional</controllingFieldValue>
+            <controllingFieldValue>Distribuidor</controllingFieldValue>
+            <valueName>Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supermercado Nacional</controllingFieldValue>
+            <valueName>Premium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supermercado Nacional</controllingFieldValue>
+            <valueName>Supermercados Nacional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supermercado Regional</controllingFieldValue>
+            <controllingFieldValue>Geográfico Directo</controllingFieldValue>
+            <valueName>Supermercado Regional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cash &amp; Carry</controllingFieldValue>
+            <valueName>Cash &amp; Carry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hard Discount</controllingFieldValue>
+            <valueName>Hard Discount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hard Discount</controllingFieldValue>
+            <valueName>Soft Discount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Geográfico Directo</controllingFieldValue>
+            <valueName>Avícola</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Geográfico Directo</controllingFieldValue>
+            <valueName>Expendio De Carnes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Geográfico Directo</controllingFieldValue>
+            <valueName>Farmacias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Geográfico Directo</controllingFieldValue>
+            <valueName>Fruver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Geográfico Directo</controllingFieldValue>
+            <valueName>Granero</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Geográfico Directo</controllingFieldValue>
+            <valueName>Minimercado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Geográfico Directo</controllingFieldValue>
+            <valueName>No Convencionales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Geográfico Directo</controllingFieldValue>
+            <valueName>Panadería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Geográfico Directo</controllingFieldValue>
+            <valueName>Salsamentaria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Geográfico Directo</controllingFieldValue>
+            <valueName>Tienda De Barrio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Geográfico Directo</controllingFieldValue>
+            <valueName>Tiendas De Conveniencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Geográfico Directo</controllingFieldValue>
+            <valueName>Tiendas Especializadas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distribuidor</controllingFieldValue>
+            <valueName>Mayoristas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hoteles</controllingFieldValue>
+            <valueName>Cadena Hotelera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hoteles</controllingFieldValue>
+            <valueName>Restaurante Hoteles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gobierno</controllingFieldValue>
+            <valueName>Institución Educativa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gobierno</controllingFieldValue>
+            <valueName>Institución Gubernamental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gobierno</controllingFieldValue>
+            <valueName>PAE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Intercompañía</controllingFieldValue>
+            <valueName>Intercompañías</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casinos</controllingFieldValue>
+            <valueName>Casinos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casinos</controllingFieldValue>
+            <valueName>Catering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casinos</controllingFieldValue>
+            <valueName>Clubes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Producto No Conforme</controllingFieldValue>
+            <valueName>Producto No Conforme</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cu_Lineas_Distribuye__c</fullName>
+    <label>Líneas que distribuye</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Postura</fullName>
+                <default>false</default>
+                <label>Postura</label>
+            </value>
+            <value>
+                <fullName>Pollo</fullName>
+                <default>false</default>
+                <label>Pollo</label>
+            </value>
+            <value>
+                <fullName>Porcicultura</fullName>
+                <default>false</default>
+                <label>Porcicultura</label>
+            </value>
+            <value>
+                <fullName>Ganadería</fullName>
+                <default>false</default>
+                <label>Ganadería</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Equinos</fullName>
+                <default>false</default>
+                <label>Equinos</label>
+            </value>
+            <value>
+                <fullName>Acuacultura</fullName>
+                <default>false</default>
+                <label>Acuacultura</label>
+            </value>
+            <value>
+                <fullName>Producto Terminado</fullName>
+                <default>false</default>
+                <label>Producto Terminado</label>
+            </value>
+            <value>
+                <fullName>Mascotas</fullName>
+                <default>false</default>
+                <label>Mascotas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

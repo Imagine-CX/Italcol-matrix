@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cu_Es_Multimarca__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indica si maneja varias marcas</description>
+    <label>¿Es multimarca?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

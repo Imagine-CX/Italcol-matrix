@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Supermercado Nacional</fullName>
+        <default>false</default>
+        <label>Supermercado Nacional</label>
+    </customValue>
+    <customValue>
+        <fullName>Supermercado Regional</fullName>
+        <default>false</default>
+        <label>Supermercado Regional</label>
+    </customValue>
+    <customValue>
+        <fullName>Cash &amp; Carry</fullName>
+        <default>false</default>
+        <label>Cash &amp; Carry</label>
+    </customValue>
+    <customValue>
+        <fullName>Hard Discount</fullName>
+        <default>false</default>
+        <label>Hard Discount</label>
+    </customValue>
+    <customValue>
+        <fullName>Geográfico Directo</fullName>
+        <default>false</default>
+        <label>Geográfico Directo</label>
+    </customValue>
+    <customValue>
+        <fullName>Asaderos de Barrio</fullName>
+        <default>false</default>
+        <label>Asaderos de Barrio</label>
+    </customValue>
+    <customValue>
+        <fullName>Distribuidor</fullName>
+        <default>false</default>
+        <label>Distribuidor</label>
+    </customValue>
+    <customValue>
+        <fullName>Hoteles</fullName>
+        <default>false</default>
+        <label>Hoteles</label>
+    </customValue>
+    <customValue>
+        <fullName>Gobierno</fullName>
+        <default>false</default>
+        <label>Gobierno</label>
+    </customValue>
+    <customValue>
+        <fullName>Casinos</fullName>
+        <default>false</default>
+        <label>Casinos</label>
+    </customValue>
+    <customValue>
+        <fullName>Restaurantes</fullName>
+        <default>false</default>
+        <label>Restaurantes</label>
+    </customValue>
+    <customValue>
+        <fullName>Distribuidor Food Service</fullName>
+        <default>false</default>
+        <label>Distribuidor Food Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Asaderos Cadena</fullName>
+        <default>false</default>
+        <label>Asaderos Cadena</label>
+    </customValue>
+    <customValue>
+        <fullName>Domicilio</fullName>
+        <default>false</default>
+        <label>Domicilio</label>
+    </customValue>
+    <customValue>
+        <fullName>Mostrador</fullName>
+        <default>false</default>
+        <label>Mostrador</label>
+    </customValue>
+    <customValue>
+        <fullName>Empleados</fullName>
+        <default>false</default>
+        <label>Empleados</label>
+    </customValue>
+    <customValue>
+        <fullName>eCommerce</fullName>
+        <default>false</default>
+        <label>eCommerce</label>
+    </customValue>
+    <customValue>
+        <fullName>Directa</fullName>
+        <default>false</default>
+        <label>Directa</label>
+    </customValue>
+    <customValue>
+        <fullName>Transformadores</fullName>
+        <default>false</default>
+        <label>Transformadores</label>
+    </customValue>
+    <customValue>
+        <fullName>Intercompañía</fullName>
+        <default>false</default>
+        <label>Intercompañía</label>
+    </customValue>
+    <customValue>
+        <fullName>Producto No Conforme</fullName>
+        <default>false</default>
+        <label>Producto No Conforme</label>
+    </customValue>
+    <customValue>
+        <fullName>Fundaciones</fullName>
+        <default>false</default>
+        <label>Fundaciones</label>
+    </customValue>
+    <customValue>
+        <fullName>Producción</fullName>
+        <default>false</default>
+        <label>Producción</label>
+    </customValue>
+    <masterLabel>Subcanal</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
