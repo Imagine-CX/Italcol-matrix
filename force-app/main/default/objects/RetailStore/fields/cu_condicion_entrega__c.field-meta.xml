@@ -21,9 +21,9 @@
                 <label>Cedi</label>
             </value>
             <value>
-                <fullName>Operador logístico</fullName>
+                <fullName>Operador logístico - plataforma</fullName>
                 <default>false</default>
-                <label>Operador logístico</label>
+                <label>Operador logístico - plataforma</label>
             </value>
         </valueSetDefinition>
     </valueSet>

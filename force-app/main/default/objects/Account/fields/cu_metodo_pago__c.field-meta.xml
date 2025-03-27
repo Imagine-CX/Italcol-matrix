@@ -16,14 +16,14 @@
                 <label>Efectivo</label>
             </value>
             <value>
-                <fullName>Cheque</fullName>
+                <fullName>Tarjeta</fullName>
                 <default>false</default>
-                <label>Cheque</label>
+                <label>Tarjeta</label>
             </value>
             <value>
-                <fullName>Crédito</fullName>
+                <fullName>Transferencia</fullName>
                 <default>false</default>
-                <label>Crédito</label>
+                <label>Transferencia</label>
             </value>
         </valueSetDefinition>
     </valueSet>

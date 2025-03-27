@@ -7,6 +7,7 @@
     <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>
+        <controllingField>cu_canal__c</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
@@ -126,5 +127,92 @@
                 <label>Producción</label>
             </value>
         </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Autoservicio</controllingFieldValue>
+            <valueName>Supermercado Nacional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autoservicio</controllingFieldValue>
+            <valueName>Supermercado Regional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autoservicio</controllingFieldValue>
+            <valueName>Cash &amp; Carry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hard Discount</controllingFieldValue>
+            <valueName>Hard Discount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ditribuidores</controllingFieldValue>
+            <valueName>Distribuidor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Geográfico</controllingFieldValue>
+            <valueName>Geográfico Directo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Puntos de Venta</controllingFieldValue>
+            <controllingFieldValue>Kioscos</controllingFieldValue>
+            <valueName>Domicilio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Puntos de Venta</controllingFieldValue>
+            <controllingFieldValue>Kioscos</controllingFieldValue>
+            <valueName>Mostrador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Puntos de Venta</controllingFieldValue>
+            <controllingFieldValue>Kioscos</controllingFieldValue>
+            <valueName>Empleados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternativo</controllingFieldValue>
+            <valueName>eCommerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternativo</controllingFieldValue>
+            <valueName>Directa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industria</controllingFieldValue>
+            <valueName>Transformadores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industria</controllingFieldValue>
+            <valueName>Intercompañía</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industria</controllingFieldValue>
+            <valueName>Producto No Conforme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industria</controllingFieldValue>
+            <valueName>Fundaciones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industria</controllingFieldValue>
+            <valueName>Producción</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food Service</controllingFieldValue>
+            <valueName>Hoteles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food Service</controllingFieldValue>
+            <valueName>Gobierno</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food Service</controllingFieldValue>
+            <valueName>Casinos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food Service</controllingFieldValue>
+            <valueName>Restaurantes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food Service</controllingFieldValue>
+            <valueName>Distribuidor Food Service</valueName>
+        </valueSettings>
     </valueSet>
 </CustomField>

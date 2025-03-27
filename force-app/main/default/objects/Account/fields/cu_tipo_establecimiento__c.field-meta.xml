@@ -2,281 +2,14 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>cu_tipo_establecimiento__c</fullName>
     <description>Tipo de establecimiento del cliente</description>
-    <label>Tipología (Tipo de establecimiento)</label>
+    <label>Tipología</label>
     <required>true</required>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Picklist</type>
     <valueSet>
         <controllingField>cu_subcanal__c</controllingField>
         <restricted>true</restricted>
-        <valueSetDefinition>
-            <sorted>false</sorted>
-            <value>
-                <fullName>Abono</fullName>
-                <default>false</default>
-                <label>Abono</label>
-            </value>
-            <value>
-                <fullName>Asaderos Barrio</fullName>
-                <default>false</default>
-                <label>Asaderos Barrio</label>
-            </value>
-            <value>
-                <fullName>Asaderos Cadena</fullName>
-                <default>false</default>
-                <label>Asaderos Cadena</label>
-            </value>
-            <value>
-                <fullName>Avícola</fullName>
-                <default>false</default>
-                <label>Avícola</label>
-            </value>
-            <value>
-                <fullName>Cadena Hotelera</fullName>
-                <default>false</default>
-                <label>Cadena Hotelera</label>
-            </value>
-            <value>
-                <fullName>Cadenas</fullName>
-                <default>false</default>
-                <label>Cadenas</label>
-            </value>
-            <value>
-                <fullName>Cafetería</fullName>
-                <default>false</default>
-                <label>Cafetería</label>
-            </value>
-            <value>
-                <fullName>Cash &amp; Carry</fullName>
-                <default>false</default>
-                <label>Cash &amp; Carry</label>
-            </value>
-            <value>
-                <fullName>Casinos</fullName>
-                <default>false</default>
-                <label>Casinos</label>
-            </value>
-            <value>
-                <fullName>Catering</fullName>
-                <default>false</default>
-                <label>Catering</label>
-            </value>
-            <value>
-                <fullName>Clínicas</fullName>
-                <default>false</default>
-                <label>Clínicas</label>
-            </value>
-            <value>
-                <fullName>Clubes</fullName>
-                <default>false</default>
-                <label>Clubes</label>
-            </value>
-            <value>
-                <fullName>Comidas Rápidas</fullName>
-                <default>false</default>
-                <label>Comidas Rápidas</label>
-            </value>
-            <value>
-                <fullName>Corrientazo</fullName>
-                <default>false</default>
-                <label>Corrientazo</label>
-            </value>
-            <value>
-                <fullName>Directa</fullName>
-                <default>false</default>
-                <label>Directa</label>
-            </value>
-            <value>
-                <fullName>Distribuidores Especiales</fullName>
-                <default>false</default>
-                <label>Distribuidores Especiales</label>
-            </value>
-            <value>
-                <fullName>Ecommerce</fullName>
-                <default>false</default>
-                <label>Ecommerce</label>
-            </value>
-            <value>
-                <fullName>Empleados</fullName>
-                <default>false</default>
-                <label>Empleados</label>
-            </value>
-            <value>
-                <fullName>Establecimientos Comerciales</fullName>
-                <default>false</default>
-                <label>Establecimientos Comerciales</label>
-            </value>
-            <value>
-                <fullName>Estanda</fullName>
-                <default>false</default>
-                <label>Estanda</label>
-            </value>
-            <value>
-                <fullName>Expendio De Carnes</fullName>
-                <default>false</default>
-                <label>Expendio De Carnes</label>
-            </value>
-            <value>
-                <fullName>Express</fullName>
-                <default>false</default>
-                <label>Express</label>
-            </value>
-            <value>
-                <fullName>Farmacias</fullName>
-                <default>false</default>
-                <label>Farmacias</label>
-            </value>
-            <value>
-                <fullName>Fruver</fullName>
-                <default>false</default>
-                <label>Fruver</label>
-            </value>
-            <value>
-                <fullName>Fundaciones</fullName>
-                <default>false</default>
-                <label>Fundaciones</label>
-            </value>
-            <value>
-                <fullName>Gallina En Pie</fullName>
-                <default>false</default>
-                <label>Gallina En Pie</label>
-            </value>
-            <value>
-                <fullName>Grandes Transformadores</fullName>
-                <default>false</default>
-                <label>Grandes Transformadores</label>
-            </value>
-            <value>
-                <fullName>Granero</fullName>
-                <default>false</default>
-                <label>Granero</label>
-            </value>
-            <value>
-                <fullName>Hard Discount</fullName>
-                <default>false</default>
-                <label>Hard Discount</label>
-            </value>
-            <value>
-                <fullName>Hogares</fullName>
-                <default>false</default>
-                <label>Hogares</label>
-            </value>
-            <value>
-                <fullName>Institución Educativa</fullName>
-                <default>false</default>
-                <label>Institución Educativa</label>
-            </value>
-            <value>
-                <fullName>Institución Gubernamental</fullName>
-                <default>false</default>
-                <label>Institución Gubernamental</label>
-            </value>
-            <value>
-                <fullName>Intercompañías</fullName>
-                <default>false</default>
-                <label>Intercompañías</label>
-            </value>
-            <value>
-                <fullName>Mayoristas</fullName>
-                <default>false</default>
-                <label>Mayoristas</label>
-            </value>
-            <value>
-                <fullName>Minimercado</fullName>
-                <default>false</default>
-                <label>Minimercado</label>
-            </value>
-            <value>
-                <fullName>Motel</fullName>
-                <default>false</default>
-                <label>Motel</label>
-            </value>
-            <value>
-                <fullName>No Convencionales</fullName>
-                <default>false</default>
-                <label>No Convencionales</label>
-            </value>
-            <value>
-                <fullName>Otros</fullName>
-                <default>false</default>
-                <label>Otros</label>
-            </value>
-            <value>
-                <fullName>PAE</fullName>
-                <default>false</default>
-                <label>PAE</label>
-            </value>
-            <value>
-                <fullName>Panadería</fullName>
-                <default>false</default>
-                <label>Panadería</label>
-            </value>
-            <value>
-                <fullName>Pequeños Transformadores</fullName>
-                <default>false</default>
-                <label>Pequeños Transformadores</label>
-            </value>
-            <value>
-                <fullName>Premium</fullName>
-                <default>false</default>
-                <label>Premium</label>
-            </value>
-            <value>
-                <fullName>Primaria</fullName>
-                <default>false</default>
-                <label>Primaria</label>
-            </value>
-            <value>
-                <fullName>Producto No Conforme</fullName>
-                <default>false</default>
-                <label>Producto No Conforme</label>
-            </value>
-            <value>
-                <fullName>Restaurante Hoteles</fullName>
-                <default>false</default>
-                <label>Restaurante Hoteles</label>
-            </value>
-            <value>
-                <fullName>Restaurantes</fullName>
-                <default>false</default>
-                <label>Restaurantes</label>
-            </value>
-            <value>
-                <fullName>Salsamentaria</fullName>
-                <default>false</default>
-                <label>Salsamentaria</label>
-            </value>
-            <value>
-                <fullName>Soft Discount</fullName>
-                <default>false</default>
-                <label>Soft Discount</label>
-            </value>
-            <value>
-                <fullName>Supermercado Regional</fullName>
-                <default>false</default>
-                <label>Supermercado Regional</label>
-            </value>
-            <value>
-                <fullName>Supermercados Nacional</fullName>
-                <default>false</default>
-                <label>Supermercados Nacional</label>
-            </value>
-            <value>
-                <fullName>Tienda De Barrio</fullName>
-                <default>false</default>
-                <label>Tienda De Barrio</label>
-            </value>
-            <value>
-                <fullName>Tiendas De Conveniencia</fullName>
-                <default>false</default>
-                <label>Tiendas De Conveniencia</label>
-            </value>
-            <value>
-                <fullName>Tiendas Especializadas</fullName>
-                <default>false</default>
-                <label>Tiendas Especializadas</label>
-            </value>
-        </valueSetDefinition>
+        <valueSetName>cu_tipologia_establecimiento</valueSetName>
         <valueSettings>
             <controllingFieldValue>Restaurantes</controllingFieldValue>
             <controllingFieldValue>Distribuidor Food Service</controllingFieldValue>
@@ -325,6 +58,7 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Domicilio</controllingFieldValue>
+            <controllingFieldValue>Mostrador</controllingFieldValue>
             <controllingFieldValue>Empleados</controllingFieldValue>
             <valueName>Empleados</valueName>
         </valueSettings>
@@ -336,6 +70,7 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Domicilio</controllingFieldValue>
+            <controllingFieldValue>Mostrador</controllingFieldValue>
             <controllingFieldValue>eCommerce</controllingFieldValue>
             <valueName>Hogares</valueName>
         </valueSettings>
@@ -361,7 +96,7 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Supermercado Nacional</controllingFieldValue>
-            <valueName>Estanda</valueName>
+            <valueName>Estandar</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Supermercado Nacional</controllingFieldValue>

@@ -7,5 +7,5 @@
     <required>false</required>
     <scale>0</scale>
     <trackFeedHistory>false</trackFeedHistory>
-    <type>Currency</type>
+    <type>Percent</type>
 </CustomField>

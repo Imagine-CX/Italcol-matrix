@@ -16,6 +16,16 @@
                 <label>Fidelizado</label>
             </value>
             <value>
+                <fullName>Nuevo</fullName>
+                <default>false</default>
+                <label>Nuevo</label>
+            </value>
+            <value>
+                <fullName>Retomado</fullName>
+                <default>false</default>
+                <label>Retomado</label>
+            </value>
+            <value>
                 <fullName>Perdido</fullName>
                 <default>false</default>
                 <label>Perdido</label>

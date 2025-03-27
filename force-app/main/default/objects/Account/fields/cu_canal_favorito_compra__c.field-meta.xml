@@ -20,6 +20,11 @@
                 <default>false</default>
                 <label>Call center</label>
             </value>
+            <value>
+                <fullName>Venta Presencial</fullName>
+                <default>false</default>
+                <label>Venta Presencial</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

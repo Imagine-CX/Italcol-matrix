@@ -69,16 +69,6 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Title</fieldItem>
-                <identifier>RecordTitleField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
                     <value>required</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Name</fieldItem>
@@ -91,15 +81,38 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.cu_numero_identificacion__c</fieldItem>
-                <identifier>Recordcu_numero_identificacion_cField</identifier>
+                <fieldItem>Record.Title</fieldItem>
+                <identifier>RecordTitleField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>none</value>
+                    <value>required</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.cu_numero_identificacion__c</fieldItem>
+                <identifier>Recordcu_numero_identificacion_cField</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 AND 2</booleanFilter>
+                    <criteria>
+                        <leftValue>{!$User.Department}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>CASABLANCA</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Department}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>BALANCEADOS</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>required</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Email</fieldItem>
                 <identifier>RecordEmailField</identifier>
@@ -109,17 +122,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Phone</fieldItem>
-                <identifier>RecordPhoneField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
+                    <value>required</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.MobilePhone</fieldItem>
                 <identifier>RecordMobilePhoneField</identifier>
@@ -135,6 +138,23 @@
                 <identifier>RecordGenderIdentityField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Birthdate</fieldItem>
+                <identifier>RecordBirthdateField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!$User.Department}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>CASABLANCA</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-adf8f43c-3f84-4076-9249-6eca8824722a</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -144,56 +164,6 @@
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
                     <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Birthdate</fieldItem>
-                <identifier>RecordBirthdateField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.co_tiene_hijos__c</fieldItem>
-                <identifier>Recordco_tiene_hijos_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.co_hace_deporte__c</fieldItem>
-                <identifier>Recordco_hace_deporte_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.co_tiene_mascotas__c</fieldItem>
-                <identifier>Recordco_tiene_mascotas_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.co_cuantas_pers_viven_contigo__c</fieldItem>
-                <identifier>Recordco_cuantas_pers_viven_contigo_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.AccountId</fieldItem>
                 <identifier>RecordAccountIdField</identifier>
@@ -207,6 +177,16 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.OwnerId</fieldItem>
                 <identifier>RecordOwnerIdField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.cu_tienda__c</fieldItem>
+                <identifier>Recordcu_tienda_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-8f1bae8b-3c6c-402f-8bfc-49c4d006a9c5</name>
@@ -247,11 +227,17 @@
                 <identifier>RecordMailingAddressField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Detalle_direccion_envio__c</fieldItem>
+                <identifier>RecordDetalle_direccion_envio_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-b664f6e4-0baf-45f2-b643-d1ca8fb7ca8c</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <name>Facet-49f24ddd-d62e-4874-b5e2-1b30857f5312</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -265,16 +251,6 @@
                 <identifier>flexipage_column3</identifier>
             </componentInstance>
         </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-49f24ddd-d62e-4874-b5e2-1b30857f5312</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column4</identifier>
-            </componentInstance>
-        </itemInstances>
         <name>Facet-41203b92-f636-45bf-af5d-3c5e5c85cff6</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -285,110 +261,10 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.co_tarjeta_millonaria__c</fieldItem>
-                <identifier>Recordco_tarjeta_millonaria_cField</identifier>
+                <fieldItem>Record.Autoriza_Tratamiento_Datos__c</fieldItem>
+                <identifier>RecordAutoriza_Tratamiendo_Datos_cField</identifier>
             </fieldInstance>
         </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.co_num_tarjeta_millonaria__c</fieldItem>
-                <identifier>Recordco_num_tarjeta_millonaria_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.co_descuento_tarjeta__c</fieldItem>
-                <identifier>Recordco_descuento_tarjeta_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-cbabe984-7c2f-4174-8155-990d613ce350</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.co_huevos_por_suscripcion__c</fieldItem>
-                <identifier>Recordco_huevos_por_suscripcion_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.co_numero_descuento_disponible__c</fieldItem>
-                <identifier>Recordco_numero_descuento_disponible_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-fd90e915-fcf3-4f8c-94cc-f05cdbcca7ce</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-cbabe984-7c2f-4174-8155-990d613ce350</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column5</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-fd90e915-fcf3-4f8c-94cc-f05cdbcca7ce</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column6</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-bfd27842-5f6a-4576-b128-50f4715a26f1</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.co_empleado__c</fieldItem>
-                <identifier>Recordco_empleado_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-4fafe9d3-c919-4e33-9910-0530cc504141</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-4fafe9d3-c919-4e33-9910-0530cc504141</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column7</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-a5585d5d-1fbd-45e2-8558-930d8be9a2f6</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <fieldInstance>
                 <fieldInstanceProperties>
@@ -399,10 +275,6 @@
                 <identifier>RecordDoNotCallField</identifier>
             </fieldInstance>
         </itemInstances>
-        <name>Facet-0eeebe59-3d61-4734-9fef-fef1725af5cc</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <fieldInstance>
                 <fieldInstanceProperties>
@@ -413,7 +285,7 @@
                 <identifier>RecordHasOptedOutOfEmailField</identifier>
             </fieldInstance>
         </itemInstances>
-        <name>Facet-c22dba08-5b1f-4062-8f7c-7f650dbd7ef2</name>
+        <name>Facet-0eeebe59-3d61-4734-9fef-fef1725af5cc</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -425,16 +297,6 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:column</componentName>
                 <identifier>flexipage_column10</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-c22dba08-5b1f-4062-8f7c-7f650dbd7ef2</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column11</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-450ea82e-bd1f-445d-837c-b5e4a9084944</name>
@@ -527,42 +389,6 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection2</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>columns</name>
-                    <value>Facet-bfd27842-5f6a-4576-b128-50f4715a26f1</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>horizontalAlignment</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>label</name>
-                    <value>Información de fidelización</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:fieldSection</componentName>
-                <identifier>flexipage_fieldSection3</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>columns</name>
-                    <value>Facet-a5585d5d-1fbd-45e2-8558-930d8be9a2f6</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>horizontalAlignment</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>label</name>
-                    <value>Información de empleado</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:fieldSection</componentName>
-                <identifier>flexipage_fieldSection4</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>

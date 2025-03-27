@@ -2,31 +2,77 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
 		<members>Account.Destino_Compra__c</members>
+		<members>Account.Detalle_Direccion_Facturacion__c</members>
+		<members>Account.Detalle_Direccion_de_Envio__c</members>
 		<members>Account.UEH_camara_comercio__c</members>
 		<members>Account.cgcloud_Account_Email__c</members>
+		<members>Account.cu_Clasificacion_Distribuidor__c</members>
+		<members>Account.cu_Clasificacion_de_Cliente__c</members>
+		<members>Account.cu_Contacto_Preferido__c</members>
+		<members>Account.cu_Empresas_Aliadas__c</members>
+		<members>Account.cu_EquipoTecnico__c</members>
+		<members>Account.cu_Italcol_Portafolio_Productos__c</members>
+		<members>Account.cu_Licita_Estado__c</members>
+		<members>Account.cu_Lineas_Distribuye__c</members>
+		<members>Account.cu_ManejoInformacion__c</members>
+		<members>Account.cu_PaymentTerms__c</members>
+		<members>Account.cu_Portafolio_Complementario__c</members>
+		<members>Account.cu_Redes_Sociales__c</members>
+		<members>Account.cu_Regional__c</members>
+		<members>Account.cu_SensibleFidelizacion__c</members>
+		<members>Account.cu_SensibleMercadeo__c</members>
+		<members>Account.cu_Servicios_Complementarios__c</members>
+		<members>Account.cu_Tamano_Bodega__c</members>
+		<members>Account.cu_TipoComercializacion__c</members>
+		<members>Account.cu_Tipo_Tarjeta__c</members>
+		<members>Account.cu_TransporteGranjas__c</members>
+		<members>Account.cu_UnidadesNegocio__c</members>
+		<members>Account.cu_Ventas_Online__c</members>
+		<members>Account.cu_VolumenProduccion__c</members>
+		<members>Account.cu_autoriza_tratamiendo_datos__c</members>
 		<members>Account.cu_canal__c</members>
 		<members>Account.cu_canal_favorito_compra__c</members>
+		<members>Account.cu_clasificacion_cliente__c</members>
+		<members>Account.cu_colaborador_grupo_italcol__c</members>
 		<members>Account.cu_compania__c</members>
 		<members>Account.cu_cupo__c</members>
+		<members>Account.cu_descuento_colaborador__c</members>
 		<members>Account.cu_descuento_empleado__c</members>
 		<members>Account.cu_descuentos__c</members>
+		<members>Account.cu_ecommerce__c</members>
 		<members>Account.cu_empleado__c</members>
 		<members>Account.cu_fecha_primera_compra__c</members>
 		<members>Account.cu_frecuencia_visita__c</members>
 		<members>Account.cu_metodo_pago__c</members>
+		<members>Account.cu_misma_direccion_facturacion__c</members>
 		<members>Account.cu_numero_puntos__c</members>
 		<members>Account.cu_plazo__c</members>
 		<members>Account.cu_precio_promedio__c</members>
 		<members>Account.cu_prioridad__c</members>
 		<members>Account.cu_productos_comprados__c</members>
+		<members>Account.cu_recibir_domicilio__c</members>
 		<members>Account.cu_subcanal__c</members>
 		<members>Account.cu_ticket_promedio__c</members>
 		<members>Account.cu_tipo_cliente__c</members>
+		<members>Account.cu_tipo_documento__c</members>
+		<members>Account.cu_tipo_empresa__c</members>
 		<members>Account.cu_tipo_establecimiento__c</members>
+		<members>Account.cu_valor_acumulado_descuento_aplicado__c</members>
 		<members>AccountContactRelation.Relationship_Strength__c</members>
+		<members>Contact.Autoriza_Tratamiento_Datos__c</members>
+		<members>Contact.Con_Rol_Cliente__c</members>
+		<members>Contact.Detalle_direccion_envio__c</members>
+		<members>Contact.co_compania__c</members>
 		<members>Contact.co_cuantas_pers_viven_contigo__c</members>
+		<members>Contact.co_cuantos_familiares_entre_13_25__c</members>
+		<members>Contact.co_cuantos_familiares_entre_25_45__c</members>
+		<members>Contact.co_cuantos_familiares_mayores_45__c</members>
+		<members>Contact.co_cuantos_menores_12__c</members>
 		<members>Contact.co_descuento_tarjeta__c</members>
 		<members>Contact.co_empleado__c</members>
+		<members>Contact.co_familiares_entre_13_25__c</members>
+		<members>Contact.co_familiares_entre_25_45__c</members>
+		<members>Contact.co_familiares_mas_45__c</members>
 		<members>Contact.co_hace_deporte__c</members>
 		<members>Contact.co_huevos_por_suscripcion__c</members>
 		<members>Contact.co_num_tarjeta_millonaria__c</members>
@@ -34,30 +80,68 @@
 		<members>Contact.co_tarjeta_millonaria__c</members>
 		<members>Contact.co_tiene_hijos__c</members>
 		<members>Contact.co_tiene_mascotas__c</members>
+		<members>Contact.cu_cantidad_menores__c</members>
 		<members>Contact.cu_numero_identificacion__c</members>
 		<members>Contact.cu_tienda__c</members>
 		<members>RetailStore.Condicion_producto__c</members>
+		<members>RetailStore.Detalle_Direccion_entrega__c</members>
+		<members>RetailStore.Prioridad__c</members>
+		<members>RetailStore.Tiene_CEPI__c</members>
+		<members>RetailStore.Tipo_Tarjeta__c</members>
+		<members>RetailStore.cu_Empresas_Aliadas__c</members>
+		<members>RetailStore.cu_Es_Multimarca__c</members>
+		<members>RetailStore.cu_Italcol_Portafolio_Productos__c</members>
+		<members>RetailStore.cu_Lineas_Manejadas__c</members>
+		<members>RetailStore.cu_Marcas_Que_Maneja__c</members>
+		<members>RetailStore.cu_Otros__c</members>
+		<members>RetailStore.cu_Portafolio_Complementario__c</members>
+		<members>RetailStore.cu_Servicio_Logistico__c</members>
+		<members>RetailStore.cu_Servicios_Complementarios__c</members>
+		<members>RetailStore.cu_Tamano_Bodega__c</members>
+		<members>RetailStore.cu_Transporte__c</members>
+		<members>RetailStore.cu_Venta_Externa__c</members>
 		<members>RetailStore.cu_canal__c</members>
+		<members>RetailStore.cu_clasificacion_cliente__c</members>
 		<members>RetailStore.cu_condicion_entrega__c</members>
 		<members>RetailStore.cu_cupo__c</members>
 		<members>RetailStore.cu_descuentos__c</members>
 		<members>RetailStore.cu_devoluciones__c</members>
+		<members>RetailStore.cu_dias_de_atencion__c</members>
+		<members>RetailStore.cu_equipo_de_ejecucion__c</members>
+		<members>RetailStore.cu_franja_horaria_agendada__c</members>
 		<members>RetailStore.cu_hora_entrega_acordada__c</members>
+		<members>RetailStore.cu_hora_visita_acordada__c</members>
 		<members>RetailStore.cu_objetivo_visita__c</members>
 		<members>RetailStore.cu_plazo__c</members>
 		<members>RetailStore.cu_subcanal__c</members>
+		<members>RetailStore.cu_tipo_frecuencia_entrega__c</members>
+		<members>RetailStore.cu_tipologia_tienda__c</members>
+		<members>RetailStore.ti_Phone__c</members>
+		<members>RetailStore.ti_email__c</members>
 		<name>CustomField</name>
 	</types>
 	<types>
-		<members>Account_Record_Page</members>
+		<members>Contact</members>
+		<members>RetailStore</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
 		<members>Contact_Record_Page</members>
-		<members>Contact_Record_Page_Three_Column</members>
 		<members>Retail_Store_Record_Page</members>
 		<name>FlexiPage</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>GlobalValueSet</name>
+	</types>
+	<types>
+		<members>Account-Account Layout</members>
+		<members>AccountContactRelation-Account Contact Relationship Layout</members>
+		<members>Contact-Contact Layout</members>
+		<members>RetailLocationGroup-Formato de Grupo de almacén minorista</members>
+		<members>RetailStore-Formato de Almacén minorista</members>
+		<members>RetailStoreGroupAssignment-Formato de Asignación de grupo de establecimientos minoristas</members>
+		<name>Layout</name>
 	</types>
 	<version>63.0</version>
 </Package>

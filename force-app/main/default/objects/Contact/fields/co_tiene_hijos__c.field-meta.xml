@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>co_tiene_hijos__c</fullName>
     <defaultValue>false</defaultValue>
-    <label>Tiene Hijos</label>
+    <label>¿Hay menores de 12 años en su familia?</label>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>
